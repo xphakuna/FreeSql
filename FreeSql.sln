@@ -111,6 +111,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeSql.Tests.Provider.Sqli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeSql.Provider.SqliteCore", "Providers\FreeSql.Provider.SqliteCore\FreeSql.Provider.SqliteCore.csproj", "{D4FEE5C1-6805-4B46-B10B-BE5CC942B883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testFreesql", "testFreesql\testFreesql.csproj", "{7EE0442D-9E24-430E-9409-1A4DF37776CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28C6A39C-7AE7-4210-B7B0-0970216637A8} = {28C6A39C-7AE7-4210-B7B0-0970216637A8}
+		{933115AD-769C-4FBE-B000-2E8CF2292377} = {933115AD-769C-4FBE-B000-2E8CF2292377}
+		{AF9C50EC-6EB6-494B-9B3B-7EDBA6FD0EBB} = {AF9C50EC-6EB6-494B-9B3B-7EDBA6FD0EBB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -649,6 +656,18 @@ Global
 		{D4FEE5C1-6805-4B46-B10B-BE5CC942B883}.Release|x64.Build.0 = Release|Any CPU
 		{D4FEE5C1-6805-4B46-B10B-BE5CC942B883}.Release|x86.ActiveCfg = Release|Any CPU
 		{D4FEE5C1-6805-4B46-B10B-BE5CC942B883}.Release|x86.Build.0 = Release|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Release|x64.Build.0 = Release|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{7EE0442D-9E24-430E-9409-1A4DF37776CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
